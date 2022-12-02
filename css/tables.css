@@ -1,0 +1,24 @@
+
+#funcionarios {
+    width: 90%;
+    margin: auto;
+    color: #000;
+    border: 2px rgb(255, 136, 0) solid;
+    border-collapse: collapse;
+    
+}
+
+#funcionarios thead{
+    background: rgb(255, 136, 0);
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+#funcionarios thead tr th{
+    padding: 10px 2px;
+    text-align: left;
+}
+
+
+
+

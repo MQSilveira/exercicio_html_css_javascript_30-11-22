@@ -1,0 +1,65 @@
+body, div, header, main{
+    border: 0;
+    margin: 0;
+    padding: 0
+    
+}
+h1{
+    color:rgb(255, 136, 0);
+}
+h3{
+    color: #000;
+}
+
+#logo img{
+    width: 150px;
+    
+}
+
+header{
+    color: rgb(33, 33, 33);
+    background: rgb(33, 33, 33);
+    padding: 0px 10px;
+    height: 130px;
+
+}
+
+ul{
+    text-align: right;
+    
+}
+li{
+    text-decoration: none;
+}
+
+body{
+    color: white;
+    background: #000
+}
+
+a{
+    color:rgb(255, 136, 0);
+    text-decoration: none;
+}
+a:hover{
+    color:rgb(102, 20, 255);
+    text-decoration: none;
+}
+
+main{
+    color:rgb(102, 20, 255);
+    background: rgb(255, 255, 255);
+    padding: 10px 10px;
+    width: 80%;
+    border-radius: 20px;
+    margin: 15px auto;
+}
+
+footer{
+    color: rgb(255, 136, 0);
+    text-align: center;
+    height: 100%;
+    padding: 10px;
+    width: 100%;
+    background: rgb(33, 33, 33)
+}
