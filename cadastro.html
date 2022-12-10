@@ -1,54 +1,65 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
+
+    <link rel="stylesheet" href="css/form.css">
     <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/tables.css">
     
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="X-ompaUA-Ctible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>.::Exercício 30/11/2022::.</title>
+    <title>.:: Cadastro de Funcionários ::.</title>
 </head>
 <body>
-    <header>
-        <div id="logo">
-            <a href="index.html">
-                <img src="img/logo.png" alt="Logo">
-            </a>
-        </div>
-        <ul>
-            <li>
-                <a href="index.html">Início</a> | 
-                <a href="editar.html">Editar</a> | 
-                <a href="listar.html">Funcionários</a>
-            </li>
-        </ul>
+</head>
+<body>
+    <header> 
+
+        <table id="cabecalho">
+          <thead>
+            <tr>
+              <th>
+                <div id="logo">
+                    <a href="index.html">
+                        <img src="img/logo.png" alt="Logo">
+                    </a>
+                </div>
+              </th>
+              <th>
+                <ul>
+                    <li>
+                        <a href="index.html">Inicio</a> .
+                        <a href="cadastro.html">Cadastrar</a> .
+                        <a href="listar.html">Funcionários</a>
+                    </li>
+                </ul>
+              </th>
+            </tr>
+          </thead>
+          </tbody>
+        </table>
     </header>
     <main>
         <h1>Cadastro de Funcionários</h1>
         <form action="">
             <div>
-                <input type= "text" class="campos" id= "nome_completo" placeholder= "Nome Completo">
+                <input type= "text" class="campos" name= "nome_completo" placeholder= "Nome Completo">
             </div>
-            <br>
             <div>
-                <input type= "text" class="campos" id= "cargo" placeholder= "Cargo">
+                <input type= "text" class="campos" name= "cargo" placeholder= "Cargo">
             </div>
-            <br>
             <div>
-                <input type= "text" class="campos" id= "salario" placeholder= "Salário">
+                <input type= "text" class="campos" name= "salario" placeholder= "Salário">
             </div>
-            <br>
             <div>
-                <input class= "botoes salvar" type="submit" value="Salvar">
-                <button class= "botoes cancelar" >Limpar</button>
+                <input class= "botoes salvar" id="salvar" type="submit" value="Salvar">
+                <button class= "botoes cancelar" onclick="limpar(event)">Limpar</button>
             </div>
         </form>
     </main>
     <footer>
         <span>Desenvolvido Turma +Devs2Blu Noturno</span>
     </footer>
-<body>
-    
+    <script src="js/script.js"></script>
 </body>
 </html>
