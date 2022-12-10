@@ -1,5 +1,5 @@
 # MÓDULO 001 HTML - Atividade Prática 
-### HTML-ATP001 - ATP002 - ATP003
+### HTML - ATP001 - ATP002 - ATP003
 Atividade em sala de aula no curso +Devs2Blu realizada no dia 30 de novembro de 2022.
 
 #### Atividade de HTML<br>
@@ -7,7 +7,7 @@ Atividade em sala de aula no curso +Devs2Blu realizada no dia 30 de novembro de 
 - Personalização com CSS - form, styles<br>
 - Manipulação com JavaScript - Formulario, elementos, localStorage<br>
 
-#### Enunciado do exercício: https://github.com/MQSilveira/HTML-ATP002/tree/main/js
+#### Enunciado do exercício: https://github.com/MQSilveira/HTML-ATP002/tree/main/pdf
 
 ## Informações e requisitos sobre o desenvolvimento do exercício:
 - Visual Studio Code 1.73.1<br>
